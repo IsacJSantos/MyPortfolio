@@ -7627,8 +7627,13 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+  text-align: justify;
 }
-
+.mbh-5
+{
+  margin-bottom: 1.3rem !important;
+  text-align: justify;
+}
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
