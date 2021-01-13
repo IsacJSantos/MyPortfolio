@@ -1,3 +1,21 @@
+
+var btnLinkedin = document.getElementById("LinkedInButton");
+var btnGithub = document.getElementById("GithubButton");
+
+btnLinkedin.addEventListener("click",OpenLinkedIn);
+btnGithub.addEventListener("click", OpenGitHUb);
+
+function OpenLinkedIn()
+{
+  var win = window.open("https://www.linkedin.com/in/isac-j-santos-235277169/", '_blank');
+  win.focus();
+}
+
+function OpenGitHUb()
+{
+  var win = window.open("https://github.com/IsacJSantos", '_blank');
+  win.focus();
+}
 /*!
     * Start Bootstrap - Freelancer v6.0.5 (https://startbootstrap.com/theme/freelancer)
     * Copyright 2013-2020 Start Bootstrap
