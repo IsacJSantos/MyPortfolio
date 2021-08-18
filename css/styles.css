@@ -2453,11 +2453,22 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #00b4d8;
   border-color: #00b4d8;
+  width: 20%;
+}
+.btn-primary-close {
+  color: #fff;
+  background-color: #c51818;
+  border-color: #c51818;
 }
 .btn-primary:hover {
   color: #fff;
   background-color: #159a80;
   border-color: #148f77;
+}
+.btn-primary-close:hover {
+  color: #fff;
+  background-color: rgb(117, 17, 17);
+  border-color: rgb(117, 17, 17);
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
